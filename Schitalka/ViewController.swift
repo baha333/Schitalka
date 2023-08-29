@@ -8,16 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var textLabel: UILabel!
-    
-    var count = 0 {
+    private var count = 0 {
         didSet {
             textLabel.text = "Значение счётчика:\(count)"
         }
     }
-    
-    @IBAction func titleButton(_ sender: UIButton) {
+    @IBAction func titleButtonTapped(_ sender: UIButton) {
         count += 1
         textLabel.text = "Значение счётчика: \(count)"
     }
@@ -25,7 +22,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-
