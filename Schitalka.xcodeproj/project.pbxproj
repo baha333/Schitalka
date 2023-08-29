@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0A3EA82A9E338E002AC572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A3EA72A9E338E002AC572 /* AppDelegate.swift */; };
+		AC0A3EAA2A9E338E002AC572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A3EA92A9E338E002AC572 /* SceneDelegate.swift */; };
+		AC0A3EAC2A9E338E002AC572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A3EAB2A9E338E002AC572 /* ViewController.swift */; };
+		AC0A3EAF2A9E338E002AC572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0A3EAD2A9E338E002AC572 /* Main.storyboard */; };
+		AC0A3EB12A9E3391002AC572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0A3EB02A9E3391002AC572 /* Assets.xcassets */; };
+		AC0A3EB42A9E3391002AC572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0A3EB22A9E3391002AC572 /* LaunchScreen.storyboard */; };
+		AC0A3EBF2A9E3392002AC572 /* SchitalkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A3EBE2A9E3392002AC572 /* SchitalkaTests.swift */; };
+		AC0A3EC92A9E3392002AC572 /* SchitalkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A3EC82A9E3392002AC572 /* SchitalkaUITests.swift */; };
+		AC0A3ECB2A9E3392002AC572 /* SchitalkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0A3ECA2A9E3392002AC572 /* SchitalkaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0A3EBB2A9E3392002AC572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0A3E9C2A9E338E002AC572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0A3EA32A9E338E002AC572;
+			remoteInfo = Schitalka;
+		};
+		AC0A3EC52A9E3392002AC572 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0A3E9C2A9E338E002AC572 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0A3EA32A9E338E002AC572;
+			remoteInfo = Schitalka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0A3EA42A9E338E002AC572 /* Schitalka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schitalka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A3EA72A9E338E002AC572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0A3EA92A9E338E002AC572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC0A3EAB2A9E338E002AC572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0A3EAE2A9E338E002AC572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0A3EB02A9E3391002AC572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0A3EB32A9E3391002AC572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0A3EB52A9E3391002AC572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0A3EBA2A9E3392002AC572 /* SchitalkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchitalkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A3EBE2A9E3392002AC572 /* SchitalkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchitalkaTests.swift; sourceTree = "<group>"; };
+		AC0A3EC42A9E3392002AC572 /* SchitalkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchitalkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0A3EC82A9E3392002AC572 /* SchitalkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchitalkaUITests.swift; sourceTree = "<group>"; };
+		AC0A3ECA2A9E3392002AC572 /* SchitalkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchitalkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0A3EA12A9E338E002AC572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A3EB72A9E3392002AC572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A3EC12A9E3392002AC572 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0A3E9B2A9E338E002AC572 = {
+			isa = PBXGroup;
+			children = (
+				AC0A3EA62A9E338E002AC572 /* Schitalka */,
+				AC0A3EBD2A9E3392002AC572 /* SchitalkaTests */,
+				AC0A3EC72A9E3392002AC572 /* SchitalkaUITests */,
+				AC0A3EA52A9E338E002AC572 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0A3EA52A9E338E002AC572 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A3EA42A9E338E002AC572 /* Schitalka.app */,
+				AC0A3EBA2A9E3392002AC572 /* SchitalkaTests.xctest */,
+				AC0A3EC42A9E3392002AC572 /* SchitalkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0A3EA62A9E338E002AC572 /* Schitalka */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A3EA72A9E338E002AC572 /* AppDelegate.swift */,
+				AC0A3EA92A9E338E002AC572 /* SceneDelegate.swift */,
+				AC0A3EAB2A9E338E002AC572 /* ViewController.swift */,
+				AC0A3EAD2A9E338E002AC572 /* Main.storyboard */,
+				AC0A3EB02A9E3391002AC572 /* Assets.xcassets */,
+				AC0A3EB22A9E3391002AC572 /* LaunchScreen.storyboard */,
+				AC0A3EB52A9E3391002AC572 /* Info.plist */,
+			);
+			path = Schitalka;
+			sourceTree = "<group>";
+		};
+		AC0A3EBD2A9E3392002AC572 /* SchitalkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A3EBE2A9E3392002AC572 /* SchitalkaTests.swift */,
+			);
+			path = SchitalkaTests;
+			sourceTree = "<group>";
+		};
+		AC0A3EC72A9E3392002AC572 /* SchitalkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0A3EC82A9E3392002AC572 /* SchitalkaUITests.swift */,
+				AC0A3ECA2A9E3392002AC572 /* SchitalkaUITestsLaunchTests.swift */,
+			);
+			path = SchitalkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0A3EA32A9E338E002AC572 /* Schitalka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A3ECE2A9E3392002AC572 /* Build configuration list for PBXNativeTarget "Schitalka" */;
+			buildPhases = (
+				AC0A3EA02A9E338E002AC572 /* Sources */,
+				AC0A3EA12A9E338E002AC572 /* Frameworks */,
+				AC0A3EA22A9E338E002AC572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schitalka;
+			productName = Schitalka;
+			productReference = AC0A3EA42A9E338E002AC572 /* Schitalka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0A3EB92A9E3392002AC572 /* SchitalkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A3ED12A9E3392002AC572 /* Build configuration list for PBXNativeTarget "SchitalkaTests" */;
+			buildPhases = (
+				AC0A3EB62A9E3392002AC572 /* Sources */,
+				AC0A3EB72A9E3392002AC572 /* Frameworks */,
+				AC0A3EB82A9E3392002AC572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0A3EBC2A9E3392002AC572 /* PBXTargetDependency */,
+			);
+			name = SchitalkaTests;
+			productName = SchitalkaTests;
+			productReference = AC0A3EBA2A9E3392002AC572 /* SchitalkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0A3EC32A9E3392002AC572 /* SchitalkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0A3ED42A9E3392002AC572 /* Build configuration list for PBXNativeTarget "SchitalkaUITests" */;
+			buildPhases = (
+				AC0A3EC02A9E3392002AC572 /* Sources */,
+				AC0A3EC12A9E3392002AC572 /* Frameworks */,
+				AC0A3EC22A9E3392002AC572 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0A3EC62A9E3392002AC572 /* PBXTargetDependency */,
+			);
+			name = SchitalkaUITests;
+			productName = SchitalkaUITests;
+			productReference = AC0A3EC42A9E3392002AC572 /* SchitalkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0A3E9C2A9E338E002AC572 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC0A3EA32A9E338E002AC572 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AC0A3EB92A9E3392002AC572 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AC0A3EA32A9E338E002AC572;
+					};
+					AC0A3EC32A9E3392002AC572 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AC0A3EA32A9E338E002AC572;
+					};
+				};
+			};
+			buildConfigurationList = AC0A3E9F2A9E338E002AC572 /* Build configuration list for PBXProject "Schitalka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0A3E9B2A9E338E002AC572;
+			productRefGroup = AC0A3EA52A9E338E002AC572 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0A3EA32A9E338E002AC572 /* Schitalka */,
+				AC0A3EB92A9E3392002AC572 /* SchitalkaTests */,
+				AC0A3EC32A9E3392002AC572 /* SchitalkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0A3EA22A9E338E002AC572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A3EB42A9E3391002AC572 /* LaunchScreen.storyboard in Resources */,
+				AC0A3EB12A9E3391002AC572 /* Assets.xcassets in Resources */,
+				AC0A3EAF2A9E338E002AC572 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A3EB82A9E3392002AC572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A3EC22A9E3392002AC572 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0A3EA02A9E338E002AC572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A3EAC2A9E338E002AC572 /* ViewController.swift in Sources */,
+				AC0A3EA82A9E338E002AC572 /* AppDelegate.swift in Sources */,
+				AC0A3EAA2A9E338E002AC572 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A3EB62A9E3392002AC572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A3EBF2A9E3392002AC572 /* SchitalkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0A3EC02A9E3392002AC572 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0A3EC92A9E3392002AC572 /* SchitalkaUITests.swift in Sources */,
+				AC0A3ECB2A9E3392002AC572 /* SchitalkaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0A3EBC2A9E3392002AC572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0A3EA32A9E338E002AC572 /* Schitalka */;
+			targetProxy = AC0A3EBB2A9E3392002AC572 /* PBXContainerItemProxy */;
+		};
+		AC0A3EC62A9E3392002AC572 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0A3EA32A9E338E002AC572 /* Schitalka */;
+			targetProxy = AC0A3EC52A9E3392002AC572 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0A3EAD2A9E338E002AC572 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0A3EAE2A9E338E002AC572 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0A3EB22A9E3391002AC572 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0A3EB32A9E3391002AC572 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0A3ECC2A9E3392002AC572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC0A3ECD2A9E3392002AC572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0A3ECF2A9E3392002AC572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5469MBNSP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schitalka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.adamovbaha.Schitalka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0A3ED02A9E3392002AC572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5469MBNSP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Schitalka/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.adamovbaha.Schitalka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC0A3ED22A9E3392002AC572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5469MBNSP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.adamovbaha.SchitalkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schitalka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Schitalka";
+			};
+			name = Debug;
+		};
+		AC0A3ED32A9E3392002AC572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5469MBNSP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.adamovbaha.SchitalkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schitalka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Schitalka";
+			};
+			name = Release;
+		};
+		AC0A3ED52A9E3392002AC572 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5469MBNSP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.adamovbaha.SchitalkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schitalka;
+			};
+			name = Debug;
+		};
+		AC0A3ED62A9E3392002AC572 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5469MBNSP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.adamovbaha.SchitalkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Schitalka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0A3E9F2A9E338E002AC572 /* Build configuration list for PBXProject "Schitalka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A3ECC2A9E3392002AC572 /* Debug */,
+				AC0A3ECD2A9E3392002AC572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A3ECE2A9E3392002AC572 /* Build configuration list for PBXNativeTarget "Schitalka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A3ECF2A9E3392002AC572 /* Debug */,
+				AC0A3ED02A9E3392002AC572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A3ED12A9E3392002AC572 /* Build configuration list for PBXNativeTarget "SchitalkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A3ED22A9E3392002AC572 /* Debug */,
+				AC0A3ED32A9E3392002AC572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0A3ED42A9E3392002AC572 /* Build configuration list for PBXNativeTarget "SchitalkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0A3ED52A9E3392002AC572 /* Debug */,
+				AC0A3ED62A9E3392002AC572 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0A3E9C2A9E338E002AC572 /* Project object */;
+}
